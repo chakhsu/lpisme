@@ -1,10 +1,10 @@
 <?php
 /**
- * Lpisme是Typecho的一套主题模板，特点还未想好日后补充。
+ * Lpisme是Typecho的一套主题模板，Lpisme这个主题的名字由来，Lp是我女朋友的名字的首个字母，没错我女朋友的名字只有两个字。So，很容易看出，Lp is me。一开始是打算起Lpismine，但太长了同时觉得还是要有点chinese的感觉，故Lpisme诞生，意味着女朋友是我的。
  *
  * @package Lpisme Theme
  * @author Chakhsu Lau
- * @version 2.4.5
+ * @version 3.1.0
  * @link www.linpx.com
  */
 
