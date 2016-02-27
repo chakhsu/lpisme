@@ -10,9 +10,9 @@ function themeConfig($form) {
     $form->addInput($socialweibo);
     $socialgithub = new Typecho_Widget_Helper_Form_Element_Text('socialgithub', NULL, NULL, _t('输入GitHub链接'), _t('输入GitHub链接,带http://'));
     $form->addInput($socialgithub);
-    $socialtwitter = new Typecho_Widget_Helper_Form_Element_Text('socialtwitter', NULL, NULL, _t('输入Twitter链接'), _t('在这里输入twitter地址,带http://'));
+    $socialtwitter = new Typecho_Widget_Helper_Form_Element_Text('socialtwitter', NULL, NULL, _t('输入Twitter链接'), _t('在这里输入twitter链接,带http://'));
     $form->addInput($socialtwitter);
-    $socialgoogle = new Typecho_Widget_Helper_Form_Element_Text('socialgoogle', NULL, NULL, _t('输入Google +地址'), _t('在这里输入Google +地址,带http://'));
+    $socialgoogle = new Typecho_Widget_Helper_Form_Element_Text('socialgoogle', NULL, NULL, _t('输入Google +链接'), _t('在这里输入Google +链接,带http://'));
     $form->addInput($socialgoogle);
 
 
