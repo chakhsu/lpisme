@@ -6,7 +6,7 @@ Lpisme主题从2016年1月22日才是制作，一直迭代升级到现在的3.1.
 
 ####主题亮点
 
-先上图片 ，更多预留点击 [https://www.linpx.com/](https://www.linpx.com/)
+先上图片 ，更多预留点击 [www.linpx.com/](https://www.linpx.com/)
 
 ![](http://ww3.sinaimg.cn/large/7c98397dgw1f1e3fwub1bj20st0kp452.jpg)
 
