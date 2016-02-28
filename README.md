@@ -2,13 +2,25 @@
 
 Lpisme是Typecho的一套主题模板，Lpisme这个主题的名字由来，Lp是我女朋友的名字的首个字母，没错我女朋友的名字只有两个字。So，很容易看出，Lp is me。一开始是打算起Lpismine，但太长了同时觉得还是要有点chinese的感觉，故Lpisme诞生，意味着女朋友是我的。
 
-Lpisme主题从2016年1月22日开始制作，一直迭代升级到现在的3.1.0版本，更多版本详情可以浏览：https://github.com/loozx/lpisme-version
+Lpisme主题从2016年1月22日开始制作，一直迭代升级到现在的3.1.0版本
+
+更多版本详情可以浏览：
+
+https://github.com/loozx/lpisme-version
+
+下载地址：
+
+https://github.com/loozx/lpisme
+
+主题预览为本站：
+
+https://www.linpx.com
 
 ####主题亮点
 
 先上图片 ，更多预留点击 [www.linpx.com/](https://www.linpx.com/)
 
-![](http://ww3.sinaimg.cn/large/7c98397dgw1f1e3fwub1bj20st0kp452.jpg)
+![](http://ww3.sinaimg.cn/large/7c98397dgw1f1fiyzekxsj20il0c4gne.jpg)
 
  - 无jQuery，无前端框架，轻量级
  - InstantClick实现PJAX无刷新操作
