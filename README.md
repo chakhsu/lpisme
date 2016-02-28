@@ -20,7 +20,7 @@ https://www.linpx.com
 
 先上图片 ，更多预留点击 [www.linpx.com/](https://www.linpx.com/)
 
-![](http://ww3.sinaimg.cn/large/7c98397dgw1f1fiyzekxsj20il0c4gne.jpg)
+![](http://ww4.sinaimg.cn/large/7c98397dgw1f1fj3721ajj20ps0huwhw.jpg)
 
  - 无jQuery，无前端框架，轻量级
  - InstantClick实现PJAX无刷新操作
