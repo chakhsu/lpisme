@@ -17,7 +17,7 @@ $this->need('header.php');
                 <div class="index-posts cf">
                     <?php while($this->next()): ?>
 
-                    <article class="index-post cf">
+                    <article class="index-post cf" itemscope itemtype="http://schema.org/BlogPosting">
                         <div class="index-post-inner">
                             <div class="index-post-header cf">
                                 <?php if (isset($this->fields->eye)): ?>
@@ -72,15 +72,15 @@ $this->need('header.php');
 
                                 <?php endif; ?>
 
-                                <div class="index-post-date">
+                                <div class="index-post-date" itemprop="datePublished">
                                     <?php $this->date('F jS , Y'); ?>
 
                                 </div>
-                                <div class="index-post-title">
-                                    <a href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
+                                <div class="index-post-title" itemprop="name headline">
+                                    <a href="<?php $this->permalink() ?>" itemtype="url"><?php $this->title() ?></a>
                                 </div>
                             </div>
-                            <div class="index-post-content">
+                            <div class="index-post-content" itemprop="articleBody">
                                 <?php $this->description(); ?>
 
                             </div>
