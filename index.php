@@ -96,9 +96,11 @@ $this->need('header.php');
                     <?php endwhile; ?>
 
                 </div>
-                <div class="pagenav cf">
-                    <?php $this->pageNav('&laquo; ', ' &raquo;'); ?>
-
+                <div class="index-pagenav cf">
+                    <div class="page-nav">
+                        <div class="page-prev left" title="<?php _e('上一页');?>"><?php $this->pageLink('<i class="icon icon-left"></i> Previous','prev');?></div>
+                        <div class="page-next right" title="<?php _e('下一页');?>"><?php $this->pageLink('Next <i class="icon icon-right"></i>','next');?></div>
+                    </div>
                 </div>
             </div>
         </div>
