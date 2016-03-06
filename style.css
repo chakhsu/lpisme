@@ -125,7 +125,7 @@ a{-webkit-transition:all .24s;transition:all .24s}
 .post-tags a:hover{color:#f08f00;background:rgba(255,152,0,0.1)}
 .post-tags a::before{content: "# ";}
 .archives-wrapper{margin:0}
-.archives-outer{margin:0 auto;max-width:920px;width:100%}
+.archives-outer{margin:0 auto;max-width:920px;width:100%;padding-bottom:1%}
 .archives{-webkit-column-gap:15px;-moz-column-gap:15px;column-gap:15px}
 @media screen and (min-width:480px) and (max-width:767px){.archives{-webkit-column-count:2;-moz-column-count:2;column-count:2}}
 @media screen and (min-width:768px){.archives{-webkit-column-count:3;-moz-column-count:3;column-count:3}}
@@ -198,10 +198,10 @@ textarea.form-control{width:100%;height:10rem;resize:none}
 #footer a.social.weibo:hover{color: #F82A2A}
 #footer a.social.google-plus:hover{color: #55b559}
 #footer .codename{color: #ff9800}
-@media(max-width:699px){.nav{width:auto}.nav a{display:block}.menu-show .nav{height:auto}.links ul li{width:45%}.adlink{display:none}.wrapper{padding:1% 4% 3%}.pagenav{margin:-1rem 0 0!important}}
+@media(max-width:699px){.nav{width:auto}.nav a{display:block}.menu-show .nav{height:auto}.links ul li{width:45%}.adlink{display:none}.wrapper{padding:1% 4% 3%;margin:0 auto 4%}.pagenav{margin:-1rem 0 0!important}}
 @media(max-width:470px){.description{display:none}.index-post-avatar{display:none}.post-meta{margin:0 0 10px}}
 @media(max-width:350px){.index-post-comments{display:none}}
 @media(max-width:1020px){.index-posts{width:780px}.index-post{width:370px}.index-pagenav{max-width:760px}}
-@media(max-width:840px){.index-posts{width:100%}.index-post{width:100%;margin: 10px 0px 20px;}.index-post:nth-child(2n){float:none;clear:left;margin:10px 0px 10px}.index-pagenav{max-width:100%;padding:0 0 10px 0}}
+@media(max-width:840px){.index-posts{width:100%}.index-post{width:100%;margin: 10px 0px 20px;}.index-post:nth-child(2n){float:none;clear:left;margin:10px 0px 10px}.index-pagenav{max-width:100%;padding:0 0 10px 0}.archive-title{padding:0}}
 @keyframes fade-in{0%{opacity:0;transform:translateY(20px)}100%{opacity:1;transform:translateY(0px)}}
 @-webkit-keyframes fade-in{0%{opacity:0;-webkit-transform:translateY(20px)}100%{opacity:1;-webkit-transform:translateY(0px)}}
