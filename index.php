@@ -4,7 +4,7 @@
  *
  * @package Lpisme Theme
  * @author Chakhsu Lau
- * @version 3.1.0
+ * @version 3.2.0
  * @link www.linpx.com
  */
 
@@ -56,10 +56,11 @@ $this->need('header.php');
                                 <span class="index-post-avatar icon-ad left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span>
                                 </span>
-                                <?php else : ?>
+                                <?php elseif (isset($this->fields->lamp)): ?>
                                 <span class="index-post-avatar icon-lamp left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span>
                                 </span>
+								<?php else : ?>
                                 <?php endif; ?>
                                 <div class="index-post-date" itemprop="datePublished">
                                     <?php $this->date('F jS , Y'); ?>
