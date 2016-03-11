@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link rel="shortcut icon" href="https://www.linpx.com/usr/themes/linpx/images/favicon.ico">
+        <link rel="shortcut icon" href="<?php $this->options->themeUrl('images/favicon.ico'); ?>">
         <title>请求的页面不存在</title>
         <style>
         body{
@@ -124,10 +124,11 @@
                 <section>
                     <div class="title404">
                         <p>情绪瞒不过野荼薇，心蠢蠢欲动比向往复杂</p>
-                    </div><a href="https://www.linpx.com/" class="index404">返回首页</a>
+                    </div><a href="<?php $this->options->siteUrl(); ?>" class="index404">返回首页</a>
                 </section>
-                <footer id="footer404">© 2016 LiNPX</footer>
+                <footer id="footer404">© <?php echo date('Y'); ?> <?php $this->options->title(); ?></footer>
             </div>
         </div>
     </body>
+</html>
 </html>
