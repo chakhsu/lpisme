@@ -27,7 +27,7 @@
 		<?php endif; ?>
 		</div>
 		<div>
-			Theme is <span class="codename">Lpisme</span> by Chakhsu / Powered by <a href="http://www.typecho.org" target="_blank">Typecho</a>
+			Theme is <span class="codename">Lpisme</span> by <a href="https://www.linpx.com" target="_blank">Chakhsu</a> / Powered by <a href="http://www.typecho.org" target="_blank">Typecho</a>
 		</div>
 		<div>
 			&copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>
