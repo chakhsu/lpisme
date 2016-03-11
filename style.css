@@ -109,7 +109,7 @@ a{-webkit-transition:all .24s;transition:all .24s}
 .post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{position:relative;font-weight: normal;margin:15px auto 10px;left:20px}
 .post-content h1::before,.post-content h2::before,.post-content h3::before,.post-content h4::before,.post-content h5::before,.post-content h6::before{position:absolute;left:-20px;top:0;content:"#";color:#4caf50;font-weight:normal}
 .post-content blockquote{position:relative;width:100%;margin:20px 0;padding:0 20px;border-left:4px solid #4caf50}
-.post-content pre{display:block;box-sizing:border-box;font-family:"inconsolata","Consolas",monospace,sans-serif;width:100%;font-size:13px;background:#f8f8f8;white-space:pre;overflow:auto}
+.post-content pre{display:block;box-sizing:border-box;font-family:"inconsolata","Consolas",monospace,sans-serif;width:100%;font-size:13px;background:#f8f8f8;overflow:auto;white-space: pre-wrap;word-wrap: break-word;}
 .post-content pre code{color:#414141;margin:0;font-size:1em;padding:0px 0px;background:0;border:0;white-space:inherit}
 .post-content pre figure{margin:0}
 .post-content code{font-family:"inconsolata","Consolas",monospace,sans-serif;color: #ff9800;padding:1px 5px;margin:0 2px;border-radius:2px;white-space:inherit;font-size:.8em;background:#f8f8f8}
