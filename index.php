@@ -88,7 +88,7 @@ $this->need('header.php');
                                     <a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum(_t('No comment'), _t('1 comment'), _t('%d comments')); ?></a>
                                 </div>
                                 <div class="index-post-category">
-                                    <?php $this->category(','); ?>
+                                    <?php $this->category(''); ?>
 
                                 </div>
                             </div>
