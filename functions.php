@@ -24,13 +24,13 @@ function themeConfig($form) {
     $form->addInput($cdn_address);
 
     //默认缩略图
-    $default = new Typecho_Widget_Helper_Form_Element_Text('default_thumb', NULL, '', _t('默认缩略图'),_t('文章没有图片时显示的默认缩略图，为空时表示不显示'));
+    $default = new Typecho_Widget_Helper_Form_Element_Text('default_thumb', NULL, '', _t('默认缩略图'),_t('文章没有图片时显示的默认缩略图，为空时表示不显示，如http://www.yourblog.com/image.png'));
     $form->addInput($default);
     //默认宽度
-    $width = new Typecho_Widget_Helper_Form_Element_Text('thumb_width', NULL, '540', _t('缩略图默认宽度'));
+    $width = new Typecho_Widget_Helper_Form_Element_Text('thumb_width', NULL, '600', _t('缩略图默认宽度'));
     $form->addInput($width);
     //默认高度
-    $height = new Typecho_Widget_Helper_Form_Element_Text('thumb_height', NULL, '324', _t('缩略图默认高度'));
+    $height = new Typecho_Widget_Helper_Form_Element_Text('thumb_height', NULL, '100%', _t('缩略图默认高度'));
     $form->addInput($height);
 }
 
