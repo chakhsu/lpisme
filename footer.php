@@ -42,11 +42,11 @@
 	//Here is for Google Analytics.
 	</script>
 	<script data-no-instant>
-	InstantClick.on('change', function(isInitialLoad) {
-		if (isInitialLoad === false) {
-			if (typeof Prism !== 'undefined') Prism.highlightAll(true,null);
-			if (typeof br !== 'undefined') br.show(true,true);
-			if (typeof ga !== 'undefined') ga('send', 'pageview', location.pathname + location.search);
+	InstantClick.on('change', function() {
+		Prism.highlightAll(true,null);
+		br.show('search-toggle', 'search-show');
+		br.show('menu-toggle', 'menu-show');
+		ga('send', 'pageview', location.pathname + location.search);
 		}
 	});
 	InstantClick.init();
