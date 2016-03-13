@@ -44,8 +44,7 @@
 	<script data-no-instant>
 	InstantClick.on('change', function() {
 		Prism.highlightAll(true,null);
-		br.show('search-toggle', 'search-show');
-		br.show('menu-toggle', 'menu-show');
+		br.show(true,null);
 		ga('send', 'pageview', location.pathname + location.search);
 		}
 	});
