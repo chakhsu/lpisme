@@ -74,12 +74,19 @@ $this->need('header.php');
                                 <?php $this->description(); ?>
 
                             </div>
+							
+                            <?php if (isset($this->fields->thumb)): ?>
+                            <div class="index-post-thumb">
+                                <img class="thumb" src="<?php echo $this->fields->thumbnail;?>">
+                            </div>
+                            <?php else : ?>							
                             <?php $thumb = showThumb($this,null,true); if(!empty($thumb)):?>
 
                             <div class="index-post-thumb">
                                 <img class="thumb" src="<?php echo $thumb;?>">
                             </div>
                             <?php endif; ?>
+							<?php endif; ?>
 
                             <div class="index-post-meta cf">
                                 <div class="index-post-button"><a href="<?php $this->permalink() ?>">Read more</a>
