@@ -202,6 +202,6 @@ textarea.form-control{width:100%;height:10rem;resize:none}
 @media(max-width:470px){.description{display:none}.index-post-avatar{display:none}.post-meta{margin:0 0 10px}}
 @media(max-width:350px){.index-post-comments{display:none}}
 @media(max-width:1020px){.index-posts{width:780px}.index-post{width:370px}.index-pagenav{max-width:760px}}
-@media(max-width:840px){.index-posts{width:100%}.index-post{width:100%;margin: 0px 0px 15px;}.index-post:nth-child(2n){float:none;clear:left;margin:10px 0px 10px}.index-pagenav{max-width:100%;padding:0 0 10px 0}.archive-title{padding:0}}
+@media(max-width:840px){.index-posts{width:100%}.index-post{width:100%;margin: 0px 0px 15px;}.index-post:nth-child(2n){float:none;clear:left;margin:10px 0px 10px}.index-pagenav{max-width:100%;padding:0 0 10px 0}.archive-title{padding: 0 0 10px;}}
 @keyframes fade-in{0%{opacity:0;transform:translateY(20px)}100%{opacity:1;transform:translateY(0px)}}
 @-webkit-keyframes fade-in{0%{opacity:0;-webkit-transform:translateY(20px)}100%{opacity:1;-webkit-transform:translateY(0px)}}
