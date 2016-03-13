@@ -36,6 +36,20 @@
 	<?php $this->footer(); ?>
 
 	<script src="<?php $this->options->themeUrl('js/functions.js'); ?>"></script>
-	<script src="<?php $this->options->themeUrl('js/prism.js'); ?>" ></script>
+	<script src="<?php $this->options->themeUrl('js/prism.js'); ?>" data-no-instant></script>
+	<script src="<?php $this->options->themeUrl('js/instantclick.min.js'); ?>" data-no-instant></script>
+	<script>
+	//Here is for Google Analytics.
+	</script>
+	<script data-no-instant>
+	InstantClick.on('change', function(isInitialLoad) {
+		if (isInitialLoad === false) {
+			if (typeof Prism !== 'undefined') Prism.highlightAll(true,null);
+			if (typeof br !== 'undefined') br.show(true,true);
+			if (typeof ga !== 'undefined') ga('send', 'pageview', location.pathname + location.search);
+		}
+	});
+	InstantClick.init();
+	</script>
 	</body>
 </html>
