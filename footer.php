@@ -35,7 +35,7 @@
 	</div>
 	<?php $this->footer(); ?>
 
-	<script src="<?php $this->options->themeUrl('js/functions.js'); ?>"></script>
+	<script src="<?php $this->options->themeUrl('js/functions.js'); ?>" data-no-instant></script>
 	<script src="<?php $this->options->themeUrl('js/prism.js'); ?>" data-no-instant></script>
 	<script src="<?php $this->options->themeUrl('js/instantclick.min.js'); ?>" data-no-instant></script>
 	<script>
