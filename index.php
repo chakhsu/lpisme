@@ -75,9 +75,9 @@ $this->need('header.php');
 
                             </div>
 							
-                            <?php if (isset($this->fields->thumb)): ?>
+                            <?php if(isset($this->fields->thumb)): ?>
                             <div class="index-post-thumb">
-                                <img class="thumb" src="<?php echo $this->fields->thumbnail;?>">
+                                <img class="thumb" src="<?php echo $this->fields->thumb;?>">
                             </div>
                             <?php else : ?>							
                             <?php $thumb = showThumb($this,null,true); if(!empty($thumb)):?>
