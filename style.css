@@ -105,7 +105,7 @@ a{-webkit-transition:all .24s;transition:all .24s}
 .post-title{font-size:1.4rem;margin:3% 0 0;display:block;text-align:center}
 .post-title a{color:#333;display:inline;line-height:1.25;font-weight:normal;color:#464646}
 .post-title a:hover{color:#55b559}
-.post-content {overflow: hidden;text-overflow: ellipsis}
+.post-content {overflow: hidden;text-overflow: ellipsis;word-spacing: normal;word-break: break-word;word-wrap: break-word;}
 .post-content a{color:#f59200;}
 .post-content a:hover{color:#55b559}
 .post-content a:active{color:#55b559}
