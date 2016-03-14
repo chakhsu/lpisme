@@ -67,7 +67,7 @@ $this->need('header.php');
 
                                 </div>
                                 <div class="index-post-title" itemprop="name headline">
-                                    <a href="<?php $this->permalink() ?>" itemtype="url"><?php $this->title() ?></a>
+                                    <a href="<?php $this->permalink() ?>" title="<?php $this->title() ?>" itemtype="url"><?php $this->title() ?></a>
                                 </div>
                             </div>
                             <div class="index-post-content" itemprop="articleBody">
