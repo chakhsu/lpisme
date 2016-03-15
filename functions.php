@@ -7,7 +7,7 @@ function themeConfig($form) {
 	
 	//Pjax加速
 	$search_form = new Typecho_Widget_Helper_Form_Element_Checkbox('search_form', 
-    array('Pjax' => _t('启用Pjax加速站点,勾上即可，然后到设置-评论，去掉开启垃圾评论过滤，主题已内置相关js'),
+    array('Pjax' => _t('启用Pjax加速站点,勾上即可，为使原生评论生效需要到设置-评论，去掉开启垃圾评论过滤，主题已内置相关js'),
         ),
     array('ShowSearch'), _t('设置开启Pjax'));
 	$form->addInput($search_form->multiMode());

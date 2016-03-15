@@ -36,11 +36,17 @@
 	<?php $this->footer(); ?>
 
 	<script src="<?php $this->options->themeUrl('js/functions.js'); ?>"></script>
-	<?php if(!empty($this->options->search_form) && in_array('Pajx', $this->options->search_form)): ?>
+	<?php if(!empty($this->options->search_form) && in_array('Pjax', $this->options->search_form)): ?>
 	<script src="<?php $this->options->themeUrl('js/prism.js'); ?>" data-no-instant></script>
 	<script src="<?php $this->options->themeUrl('js/instantclick.min.js'); ?>" data-no-instant></script>
 	<script data-no-instant>
-	//Here is for Google Analytics.
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-73845237-1', 'auto');
+	ga('send', 'pageview');
 	</script>
 	<script data-no-instant>
 	InstantClick.on('change', function(isInitialLoad) {
