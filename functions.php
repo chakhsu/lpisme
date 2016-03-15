@@ -4,6 +4,13 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 function themeConfig($form) {
     $slogan = new Typecho_Widget_Helper_Form_Element_Text('slogan', NULL, NULL, _t('logo旁边的标语'), _t('在这里输入标语'));
     $form->addInput($slogan);
+	
+	//Pjax加速
+	$search_form = new Typecho_Widget_Helper_Form_Element_Checkbox('search_form', 
+    array('Pjax' => _t('启用Pjax加速站点,勾上即可，然后到设置-评论，去掉开启垃圾评论过滤，主题已内置相关js'),
+        ),
+    array('ShowSearch'), _t('设置开启Pjax'));
+	$form->addInput($search_form->multiMode());
 
     //社交链接
     $socialweibo = new Typecho_Widget_Helper_Form_Element_Text('socialweibo', NULL, NULL, _t('输入微博链接'), _t('在这里输入微博链接,带http://'));
