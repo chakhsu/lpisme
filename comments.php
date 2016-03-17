@@ -152,6 +152,7 @@ echo $commentClass;
     };
 })();
 </script>
+<?php if(!empty($this->options->search_form) && in_array('Pjax', $this->options->search_form)): ?>
 <script type = "text/javascript" data-no-instant>
 (function() {
     var event = document.addEventListener ? {
@@ -222,3 +223,5 @@ echo $commentClass;
     });
 })();
 </script>
+<?php else : ?>
+<?php endif; ?>
