@@ -97,7 +97,7 @@ $this->need('header.php');
                                 <div class="index-post-button"><a href="<?php $this->permalink() ?>">Read more</a>
                                 </div>
                                 <div class="index-post-button index-post-comments">
-                                    <a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum(_t('No comment'), _t('1 comment'), _t('%d comments')); ?></a>
+                                    <a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum(_t(' No comment '), _t(' 1 comment '), _t(' %d comments ')); ?></a>
                                 </div>
                                 <div class="index-post-category">
                                     <?php $this->category(''); ?>

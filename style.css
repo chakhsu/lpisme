@@ -91,12 +91,12 @@ a.index-post-cover:hover::after{visibility:visible;opacity:1;-ms-filter:"alpha(o
 a.index-post-cover:hover::before{visibility:visible;opacity:.8;-ms-filter:"alpha(opacity=80)";filter:alpha(opacity=80)}
 .index-post-thumb{height: auto;position: relative;display: block;overflow: hidden}
 .index-post-thumb .thumb{display:block;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding:0;margin:0}
-.index-post-meta{border-top:1px dashed #ddd;padding:15px 20px 20px 15px;min-height:40px}
+.index-post-meta{border-top:1px dashed #ddd;padding:15px 20px 20px 15px;}
 .index-post-button{cursor:pointer;outline:0}
-.index-post-button a{float:left;font-size:.75em;color:#777;border:1px solid #d9d9d9;height:30px;line-height: 29px;padding:0 8px;outline:0;margin-right:10px;border-radius:3px}
+.index-post-button a{float:left;font-size:.75em;color:#777;border:1px solid #d9d9d9;line-height: 30px;padding:0 8px;outline:0;margin-right:10px;border-radius:3px;}
 .index-post-button a:hover{color:#f77b83;border-color:#f77b83;outline-style:none}
 .index-post-button a:active{color:#f77b83;border-color:#f77b83;outline-style:none}
-.index-post-category{height:30px;list-style:none;text-align:right;-webkit-transition:all .24s;transition:all .24s}
+.index-post-category{list-style:none;text-align:right;-webkit-transition:all .24s;transition:all .24s;}
 .index-post-category a{opacity:1;visibility:visible;text-align:center;display:block;float:right;font-size:.75em;color:#777;line-height:30px;vertical-align:middle;padding:0 8px 0 10px;max-width:100px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;background-color:#efefef;-webkit-transition:opacity .24s,color .24s,background-color .24s;transition:opacity .24s,color .24s,background-color .24s}
 .index-post-category a:hover{color:#fff;background:#5b6064}
 
