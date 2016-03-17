@@ -7,7 +7,13 @@ function themeConfig($form) {
     $favicon = new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, NULL, _t('Favicon'), _t('不填则使用主题自带的Favicon'));
     $form->addInput($favicon);
     $iosicon = new Typecho_Widget_Helper_Form_Element_Text('iosicon', NULL, NULL, _t('iOS主屏幕图标'), _t('不填则使用主题自带的图标'));
-    $form->addInput($iosicon);	
+    $form->addInput($iosicon);
+    //文章列表
+    $listCol = new Typecho_Widget_Helper_Form_Element_Select('listCol', array(
+        'one' => _t('单列'),
+        'two' => _t('双列'),
+    ), 'one', _t('首页文章列表样式'), _t('设置文章列表显示列数'));
+    $form->addInput($listCol);
 	//Pjax加速
 	$search_form = new Typecho_Widget_Helper_Form_Element_Checkbox('search_form', 
     array('Pjax' => _t('启用Pjax加速站点,勾上即可，为使原生评论生效需要到设置-评论，去掉开启垃圾评论过滤，主题已内置相关js'),
