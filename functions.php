@@ -6,10 +6,10 @@ function themeConfig($form) {
     $form->addInput($slogan);
 	
 	//icon添加
-	$favicon = new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, NULL, _t('Favicon'), _t('不填则使用主题自带的Favicon'));
+	$favicon = new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, NULL, _t('Favicon'), _t('不填则使用主题自带的Favicon,,如http://www.yourblog.com/image.png'));
     $form->addInput($favicon);
-    $iosicon = new Typecho_Widget_Helper_Form_Element_Text('iosicon', NULL, NULL, _t('iOS主屏幕图标'), _t('不填则使用主题自带的图标'));
-    $form->addInput($iosicon);		
+    $iosicon = new Typecho_Widget_Helper_Form_Element_Text('iosicon', NULL, NULL, _t('iOS主屏幕图标'), _t('不填则使用主题自带的图标,如http://www.yourblog.com/image.png'));
+    $form->addInput($iosicon);
 	
 	//Pjax加速
 	$search_form = new Typecho_Widget_Helper_Form_Element_Checkbox('search_form', 
