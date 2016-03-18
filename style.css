@@ -76,12 +76,14 @@ table tr:nth-child(2n){background-color:#f8f8f8}
 
 .index-wrapper{margin:0 auto;width:100%;position:relative;}
 .index-posts{width:940px;height:auto;margin:0px auto;position:relative;z-index:10;}
+.index-posts-onecol{width:780px !important;}
 .index-post{float:left;clear:left;width:450px;height:auto;background:#fff;margin:0px 10px 20px 10px;-webkit-box-shadow:1px 2px 3px #ddd;box-shadow:1px 2px 3px #ddd;-webkit-border-radius:3px;border-radius:3px;}
+.index-post-onecol {width:760px !important;}
 .index-post:nth-child(2n){float: right;clear: right;}
 .index-post-header{padding:20px 20px 15px 20px;width:100%}
 .index-post-avatar{width: 50px;height: 50px;font-size:50px;margin-right:12px}
 .index-post-date{color:#999;text-decoration:none;font-size:.75em;line-height:1em;display:block;margin:4px 0 10px 0}
-.index-post-title{font-weight:normal;color:#444;font-size:18px;line-height: 120%;display:inline;-webkit-transition:all .24s;transition:all .24s;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden}
+.index-post-title{font-weight:normal;color:#444;font-size:18px;line-height: 120%;display:block;-webkit-transition:all .24s;transition:all .24s;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
 .index-post-content{display:block;padding: 0 20px 20px 20px;font-size:.85em;color:#888;line-height:150%;min-height:6.5em}
 .index-post-thumb{height: auto;position: relative;display: block;overflow: hidden}
 .index-post-thumb .thumb{display:block;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding:0;margin:0}
@@ -124,7 +126,7 @@ a.index-post-cover:hover::before{visibility:visible;opacity:.8;-ms-filter:"alpha
 .post-content pre code{color:#414141;margin:0;font-size:1em;padding:0px 0px;background:0;border:0;white-space:inherit}
 .post-content pre figure{margin:0}
 .post-content code{font-family:"inconsolata","Consolas",monospace,sans-serif;color: #ff9800;padding:1px 5px;margin:0 2px;border-radius:2px;white-space:inherit;font-size:.8em;background:#f8f8f8}
-.post-content img{position:relative;display:block;max-width: 100%;overflow:hidden;-webkit-transition:all .24s ease;transition:all .24s ease;margin: 0 auto;}
+.post-content img{position:relative;display:block;max-width: 100%;height:auto;overflow:hidden;-webkit-transition:all .24s ease;transition:all .24s ease;margin: 0 auto;}
 .post-content .word{text-align:center}
 .post-content .text{display:block;height:34px;margin:15px 0;padding:6px 12px;margin:0 auto 15px;background-color:#fff;border:1px solid #ccc;border-radius:4px}
 .post-content .more{margin:0 0 1.5rem}
@@ -181,6 +183,7 @@ textarea.form-control{width:100%;height:10rem;resize:none}
    ========================================================================== */
 
 .index-pagenav{max-width:924px;height:auto;margin:15px auto;position:relative;z-index:10;padding: 0 0 20px 0;}
+.index-pagenav-onecol{width:760px}
 .page-nav{font-size: .85em;font-weight:normal;color:#a7a7a7;border-radius:2px}
 .page-prev a,.page-next a{background-color:#fff;color:#777;-webkit-box-shadow:1px 2px 3px #ddd;box-shadow:1px 2px 3px #ddd;padding: 8px 10px;-webkit-border-radius:3px;border-radius:3px}
 .page-prev a:hover,.page-next a:hover{color:white;background:#5b6064}
@@ -212,7 +215,7 @@ textarea.form-control{width:100%;height:10rem;resize:none}
 @media(max-width:699px){.nav{width:auto}.nav a{display:block}.menu-show .nav{height:auto}.links ul li{width:45%}.adlink{display:none}.wrapper{padding:1% 4% 3%;margin:0 auto 4%}.pagenav{margin:-1rem 0 0!important}}
 @media(max-width:470px){.description{display:none}.index-post-avatar{display:none}.post-meta{margin:0 0 10px}}
 @media(max-width:350px){.index-post-comments{display:none}}
-@media(max-width:1020px){.index-posts{width:780px}.index-post{width:370px}.index-pagenav{max-width:760px}}
+@media(max-width:1020px){.index-posts{width:780px}.index-post{width:370px}.index-post-onecol{width:760px !important;}.index-pagenav{max-width:760px}}
 @media(max-width:840px){.index-posts{width:100%}.index-post{width:100%;margin: 0px 0px 10px;}.index-post:nth-child(2n){float:none;clear:left;margin:10px 0px 10px}.index-pagenav{max-width:100%;padding:0 0 10px 0}.archive-title{padding: 0 0 10px;}}
 @keyframes fade-in{0%{opacity:0;transform:translateY(20px)}100%{opacity:1;transform:translateY(0px)}}
 @-webkit-keyframes fade-in{0%{opacity:0;-webkit-transform:translateY(20px)}100%{opacity:1;-webkit-transform:translateY(0px)}}
