@@ -81,7 +81,7 @@ table tr:nth-child(2n){background-color:#f8f8f8}
 .index-post-header{padding:20px 20px 15px 20px;width:100%}
 .index-post-avatar{width: 50px;height: 50px;font-size:50px;margin-right:12px}
 .index-post-date{color:#999;text-decoration:none;font-size:.75em;line-height:1em;display:block;margin:4px 0 10px 0}
-.index-post-title{font-weight:normal;color:#444;font-size:18px;line-height: 120%;display:inline;-webkit-transition:all .24s;transition:all .24s;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden}
+.index-post-title{font-weight:normal;color:#444;font-size:18px;line-height: 120%;display:block;-webkit-transition:all .24s;transition:all .24s;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;white-space: nowrap;text-overflow: ellipsis}
 .index-post-content{display:block;padding: 0 20px 20px 20px;font-size:.85em;color:#888;line-height:150%;min-height:6.5em}
 .index-post-thumb{height: auto;position: relative;display: block;overflow: hidden}
 .index-post-thumb .thumb{display:block;width:100%;background-position:center;background-repeat:no-repeat;background-size:cover;padding:0;margin:0}
