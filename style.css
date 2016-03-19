@@ -196,7 +196,7 @@ textarea.form-control{width:100%;height:10rem;resize:none}
    #footer
    ========================================================================== */
 
-#footer{background:#fff;color:#929292;padding:20px 0;text-align:center;font-size:13px;line-height:2.5em;text-shadow:none}
+#footer{clear:both;background:#fff;color:#929292;padding:20px 0;text-align:center;font-size:13px;line-height:2.5em;text-shadow:none}
 #footer a{color:#929292}
 #footer a:hover{color:#f77b83}
 #footer .social-wrapper{padding-top:20px}
