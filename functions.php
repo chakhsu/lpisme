@@ -8,7 +8,7 @@ function themeConfig($form) {
 	//图标设置
 	$favicon = new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, NULL, _t('Favicon'), _t('在这里输入图标链接,带http:// ,不填则使用主题自带的Favicon'));
     $form->addInput($favicon);
-    $iosicon = new Typecho_Widget_Helper_Form_Element_Text('iosicon', NULL, NULL, _t('Apple Touch Icon'), _t('在这里输入图标链接,带http:// ,不填则使用主题自带的图标'));
+    $iosicon = new Typecho_Widget_Helper_Form_Element_Text('iosicon', NULL, NULL, _t('Apple Touch Icon'), _t('在这里输入图标链接,带http:// ,不填则使用主题自带的Apple Touch Icon'));
     $form->addInput($iosicon);	
 	
 	//Pjax加速
