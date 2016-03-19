@@ -1,6 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
-	<div id="footer">
+	<div id="footer cf">
 		<div class="social-wrapper">
 		<?php if ($this->options->socialgithub): ?>
 			<a class="social github" target="blank" href="<?php $this->options->socialgithub(); ?>">
