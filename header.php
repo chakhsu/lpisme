@@ -1,7 +1,7 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <!DOCTYPE html>
 <html>
-    <head>
+	<head>
 		<meta charset="<?php $this->options->charset(); ?>">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 		<meta name="renderer" content="webkit">
@@ -25,7 +25,7 @@
 		<script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
 		<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-    </head>
+	</head>
     <body class="null" gtools_scp_screen_capture_injected="true">
         <!--[if lt IE 9]>
         <div class="browsehappy" role="dialog">
