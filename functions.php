@@ -5,6 +5,12 @@ function themeConfig($form) {
     $slogan = new Typecho_Widget_Helper_Form_Element_Text('slogan', NULL, NULL, _t('logo旁边的标语'), _t('在这里输入标语'));
     $form->addInput($slogan);
 	
+	//图标设置
+	$favicon = new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, NULL, _t('Favicon'), _t('在这里输入图标链接,带http:// ,不填则使用主题自带的Favicon'));
+    $form->addInput($favicon);
+    $iosicon = new Typecho_Widget_Helper_Form_Element_Text('iosicon', NULL, NULL, _t('Apple Touch Icon'), _t('在这里输入图标链接,带http:// ,不填则使用主题自带的图标'));
+    $form->addInput($iosicon);	
+	
 	//Pjax加速
 	$search_form = new Typecho_Widget_Helper_Form_Element_Checkbox('search_form', 
     array('Pjax' => _t('启用Pjax加速站点,勾上即可，为使原生评论生效需要到设置-评论，去掉开启垃圾评论过滤，主题已内置相关js'),),array('ShowSearch'), _t('设置开启Pjax'));
@@ -13,7 +19,7 @@ function themeConfig($form) {
     //社交链接
     $socialweibo = new Typecho_Widget_Helper_Form_Element_Text('socialweibo', NULL, NULL, _t('输入微博链接'), _t('在这里输入微博链接,带http://'));
     $form->addInput($socialweibo);
-    $socialgithub = new Typecho_Widget_Helper_Form_Element_Text('socialgithub', NULL, NULL, _t('输入GitHub链接'), _t('输入GitHub链接,带http://'));
+    $socialgithub = new Typecho_Widget_Helper_Form_Element_Text('socialgithub', NULL, NULL, _t('输入GitHub链接'), _t('在这里输入GitHub链接,带http://'));
     $form->addInput($socialgithub);
     $socialtwitter = new Typecho_Widget_Helper_Form_Element_Text('socialtwitter', NULL, NULL, _t('输入Twitter链接'), _t('在这里输入twitter链接,带http://'));
     $form->addInput($socialtwitter);
