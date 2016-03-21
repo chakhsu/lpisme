@@ -14,10 +14,10 @@ $this->need('header.php');
 
         <div class="container">
             <div class="index-wrapper">
-                <div class="index-posts cf">
+                <div class="index-posts <?php if ($this->options->listCol == "one") echo "index-posts-onecol"; ?> cf">
                     <?php while($this->next()): ?>
 
-                    <article class="index-post cf" itemscope itemtype="http://schema.org/BlogPosting">
+                    <article class="index-post <?php if ($this->options->listCol == "one") echo "index-post-onecol"; ?> cf" itemscope itemtype="http://schema.org/BlogPosting">
                         <div class="index-post-inner">
                             <div class="index-post-header cf">
                                 <?php if (isset($this->fields->eye)): ?>
@@ -82,7 +82,7 @@ $this->need('header.php');
 									<img class="thumb" src="<?php echo $this->fields->thumb;?>">
 								</a>
 							</div>
-                            <?php else : ?>							
+                            <?php else : ?>
                             <?php $thumb = showThumb($this,null,true); if(!empty($thumb)):?>
 
 							<div class="index-post-thumb">
@@ -109,7 +109,7 @@ $this->need('header.php');
                     <?php endwhile; ?>
 
                 </div>
-                <div class="index-pagenav cf">
+                <div class="index-pagenav <?php if ($this->options->listCol == "one") echo "index-pagenav-onecol"; ?> cf">
                     <div class="page-nav">
                         <div class="page-prev left" title="<?php _e('上一页');?>"><?php $this->pageLink('<i class="icon icon-left"></i> Previous','prev');?></div>
                         <div class="page-next right" title="<?php _e('下一页');?>"><?php $this->pageLink('Next <i class="icon icon-right"></i>','next');?></div>
