@@ -16,8 +16,8 @@
 	), '', ' - '); ?><?php $this->options->title(); ?></title>
 	<meta name="keywords" content="<?php $this->keywords() ?>" />
 	<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
-	<link rel="shortcut icon" href="<?php if(isset($this->options->favicon)){$this->options->favicon();}else{$this->options->themeUrl('images/favicon.png');} ?>">
-	<link rel="apple-touch-icon" href="<?php if(isset($this->options->iosicon)){$this->options->iosicon();}else{$this->options->themeUrl('images/favicon.png');} ?>">
+	<link rel="shortcut icon" href="<?php if($this->options->favicon): $this->options->favicon(); else: $this->options->themeUrl('images/favicon.png');endif; ?>">
+	<link rel="apple-touch-icon" href="<?php if($this->options->iosicon): $this->options->iosicon(); else: $this->options->themeUrl('images/favicon.png');endif; ?>">
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('assets/prism.css'); ?>">
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('assets/style.css'); ?>">
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
