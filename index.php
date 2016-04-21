@@ -94,7 +94,7 @@ $this->need('header.php');
 							<?php endif; ?>
 
                             <div class="index-post-meta cf">
-                                <div class="index-post-button"><a href="<?php $this->permalink() ?>">Read more</a>
+                                <div class="index-post-button"><a href="<?php $this->permalink() ?>"> Read more </a>
                                 </div>
                                 <div class="index-post-button index-post-comments">
                                     <a href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum(_t(' No comment '), _t(' 1 comment '), _t(' %d comments ')); ?></a>
