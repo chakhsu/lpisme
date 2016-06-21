@@ -12,7 +12,7 @@
                         <?php parseContent($this); ?>
 
                         <div class="post-copyright">
-                            <div class="alert" role="alert">文章发布时间为: <?php $this->date('F jS , Y \\a\t h:i a'); ?><br>最后编辑时间为: <?php echo date('F jS , Y \\a\t h:i a' , $this->modified); ?><br>本文由 <a href="<?php $this->author->permalink(); ?>"><?php $this->author() ?></a> 创作，采用 <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/" rel="external nofollow">知识共享署名 4.0</a> 国际许可协议进行许可<br>可自由转载、引用，但需署名作者且注明文章出处</div>
+                            <div class="alert" role="alert">最后编辑时间为: <?php echo date('F jS , Y \\a\t h:i a' , $this->modified); ?><br>本文由 <a href="<?php $this->author->permalink(); ?>"><?php $this->author() ?></a> 创作，采用 <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/" rel="external nofollow">知识共享署名 4.0</a> 国际许可协议进行许可<br>可自由转载、引用，但需署名作者且注明文章出处</div>
                         </div>
                         <div class="post-tags"><?php $this->tags(' ', true, ''); ?></div>
                     </div>
