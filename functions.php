@@ -57,7 +57,7 @@ function showThumb($obj,$size=null,$link=false,$pattern='<div class="post-thumb"
 
     $attach = $obj->attachments(1)->attachment;
 
-    if (isset($attach->isImage)){
+    if (isset($attach->isImage) && $attach->isImage == 1){
         $thumb = $attach->url;
         if(!empty($options->src_add) && !empty($options->cdn_add)){
             $thumb = str_ireplace($options->src_add,$options->cdn_add,$thumb);
