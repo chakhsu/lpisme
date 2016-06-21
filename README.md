@@ -1,3 +1,7 @@
+####更新（2016年5月3日01:44:21）
+
+- 已 fix 主题缩略图功能存在一个图片判断失误的bug (via:https://github.com/loozx/lpisme/issues/7)
+
 ####更新（2016年3月15日21:34:59）
 
  - 增加外观后台设置是否开启Pjax选项，使用了cloudflare的cdn加速服务的不需要勾选
