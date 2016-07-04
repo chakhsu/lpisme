@@ -20,43 +20,43 @@ $this->need('header.php');
                     <article class="index-post <?php if ($this->options->listCol == "one") echo "index-post-onecol"; ?> cf" itemscope itemtype="http://schema.org/BlogPosting">
                         <div class="index-post-inner">
                             <div class="index-post-header cf">
-                                <?php if (isset($this->fields->eye)): ?>
+                                <?php if (array_key_exists('eye',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-eyeglass left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span>
                                 </span>
-                                <?php elseif (isset($this->fields->code)): ?>
+                                <?php elseif (array_key_exists('code',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-coding left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span><span class="path22"></span><span class="path23"></span><span class="path24"></span><span class="path25"></span><span class="path26"></span><span class="path27"></span><span class="path28"></span><span class="path29"></span><span class="path30"></span><span class="path31"></span><span class="path32"></span><span class="path33"></span><span class="path34"></span><span class="path35"></span><span class="path36"></span><span class="path37"></span><span class="path38"></span><span class="path39"></span><span class="path40"></span><span class="path41"></span><span class="path42"></span><span class="path43"></span><span class="path44"></span>
                                 </span>
-                                <?php elseif (isset($this->fields->list)): ?>
+                                <?php elseif (array_key_exists('list',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-list left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span>
                                 </span>
-                                <?php elseif (isset($this->fields->quote)): ?>
+                                <?php elseif (array_key_exists('quote',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-ss left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
                                 </span>
-                                <?php elseif (isset($this->fields->share)): ?>
+                                <?php elseif (array_key_exists('share',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-share left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span><span class="path22"></span><span class="path23"></span><span class="path24"></span><span class="path25"></span>
                                 </span>
-                                <?php elseif (isset($this->fields->chat)): ?>
+                                <?php elseif (array_key_exists('chat',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-chat left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span>
                                 </span>
-                                <?php elseif (isset($this->fields->locked)): ?>
+                                <?php elseif (array_key_exists('locked',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-locked left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span>
                                 </span>
-                                <?php elseif (isset($this->fields->images)): ?>
+                                <?php elseif (array_key_exists('images',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-images left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span>
                                 </span>
-                                <?php elseif (isset($this->fields->ad)): ?>
+                                <?php elseif (array_key_exists('ad',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-ad left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span>
                                 </span>
-                                <?php elseif (isset($this->fields->lamp)): ?>
+                                <?php elseif (array_key_exists('lamp',unserialize($this->___fields()))): ?>
                                 <span class="index-post-avatar icon-lamp left">
                                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span>
                                 </span>
@@ -75,7 +75,7 @@ $this->need('header.php');
 
                             </div>
 
-                            <?php if(isset($this->fields->thumb)): ?>
+                            <?php if (array_key_exists('thumb',unserialize($this->___fields()))): ?>
 
 							<div class="index-post-thumb">
 								<a class="index-post-cover" href="<?php $this->permalink() ?>">
