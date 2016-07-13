@@ -1,3 +1,7 @@
+####更新（2016年7月13日11:56:53）
+
+- 增加友情链接功能（需要配合[友情链接](http://www.imhan.com/archives/typecho-links/)插件）
+
 ####更新（2016年5月3日01:44:21）
 
 - 已 fix 主题缩略图功能存在一个图片判断失误的bug (via:https://github.com/loozx/lpisme/issues/7)
@@ -108,6 +112,10 @@ https://www.linpx.com
 选择 Template Page of Archives 的页面模板，即可实现归档页 
 
 Ok，至此主题介绍完毕·····
+
+###感谢以下代码贡献者
+
+- [ChinaYeLang](https://github.com/hiyelang)
 
 ###License
 
