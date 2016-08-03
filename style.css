@@ -193,7 +193,8 @@ textarea.form-control{width:100%;height:10rem;resize:none}
 .page-navigator{margin:0;padding:0;list-style-type:none;color:#aaa;text-align:center}
 .page-navigator li{display:inline-block;float:none;margin:.4rem}
 .page-navigator a{color:#a7a7a7;line-height:2rem;display:block;width:2rem;height:2rem}
-.page-navigator .current{border-radius:50%;background-color:#fff;background:#fff;-webkit-box-shadow:1px 2px 3px #ddd;box-shadow:1px 2px 3px #ddd;}
+.page-navigator .current{border-radius:50%;background-color:#fff;background:#fff;border: 1px solid #ccc;}
+.page-navigator .current:hover{border: 1px solid #f08f00;}
 .browsehappy{bottom:0;top:0;width:100%;height:40px;z-index:999;position:fixed;background:#fbe3e4;color:#8a1f11;text-align:center;padding:10px}
 .browsehappy a{color:#8a1f11;text-decoration:underline;font-weight:700}
 
