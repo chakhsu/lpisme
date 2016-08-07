@@ -109,7 +109,7 @@ echo $commentClass;
         reply: function(cid, coid) {
             var comment = this.dom(cid),
                 parent = comment.parentNode,
-                response = this.dom('respond-post-1'),
+                response = this.dom('<?php echo $this->respondId(); ?>'),
                 input = this.dom('comment-parent'),
                 form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
                 textarea = response.getElementsByTagName('textarea')[0];
@@ -136,7 +136,7 @@ echo $commentClass;
             return false;
         },
         cancelReply: function() {
-            var response = this.dom('respond-post-1'),
+            var response = this.dom('<?php echo $this->respondId(); ?>'),
                 holder = this.dom('comment-form-place-holder'),
                 input = this.dom('comment-parent');
             if (null != input) {
@@ -165,7 +165,7 @@ echo $commentClass;
         load: 'onload'
     };
     document[event.add](event.load, function() {
-        var r = document.getElementById('respond-post-1');
+        var r = document.getElementById('<?php echo $this->respondId(); ?>');
         if (null != r) {
             var forms = r.getElementsByTagName('form');
             if (forms.length > 0) {
