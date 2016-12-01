@@ -56,6 +56,6 @@
 
 	<script src="<?php $this->options->themeUrl('js/prism.js'); ?>" ></script>
 	<?php endif; ?>
-	
+
 	</body>
 </html>
