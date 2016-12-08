@@ -165,8 +165,8 @@ a.index-post-cover:hover::before{visibility:visible;opacity:.8;-ms-filter:"alpha
 .comment-num{color:#999;font-weight:400;font-size:.9rem}
 .comment-main{overflow:hidden;padding:1rem 0;border-bottom:1px dotted #e0e0e0}
 .comment-main p{margin: 0 0 10px;}
-.comment-meta,.cancel-comment-reply{font-size:.8rem;color:#aaa;}
-.comment-meta .comment-reply{float:right}
+.comment-meta{font-size:.8rem;color:#aaa;}
+.comment-meta .comment-reply{float:right;}
 .comment-reply{float:right;display:none}
 .comment-main:hover .comment-reply{display:block}
 .comment-author{padding:.1rem .25rem;border-radius:.25rem;background:#eee;font-size:.7rem}
