@@ -36,7 +36,6 @@
             <div class="logo left">
                 <a href="<?php $this->options->siteUrl(); ?>">
                     <?php $this->options->title() ?>
-
                 </a>
             </div>
             <div class="slogan">
@@ -48,7 +47,7 @@
             </div>
         </div>
         <form id="search" method="post" action="/" role="search">
-                <input type="text" class="input" name="s" required="true" placeholder="...Search" dir="rtl">
+            <input type="text" class="input" name="s" required="true" placeholder="...Search" dir="rtl">
         </form>
         <nav class="nav">
             <div class="nav-wrapper right">
