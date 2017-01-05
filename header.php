@@ -4,6 +4,7 @@
 <head>
 <meta charset="<?php $this->options->charset(); ?>">
 <?php if ($this->options->cdn_add): ?>
+<meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="<?php $this->options->cdn_add(); ?>" />
 <link rel="dns-prefetch" href="//cdn.bootcss.com" />
 <?php endif; ?>
