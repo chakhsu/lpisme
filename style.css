@@ -134,7 +134,7 @@ a.index-post-cover:hover::before{visibility:visible;opacity:.8;-ms-filter:'alpha
 .post-content .more{margin:0 0 1.5rem;}
 .post-content .more a{font-weight:700;margin:0;padding:0;color:#666;background:0;}
 .post-content .more a:hover{color:#f77b83;background:0;}
-.post-meta{font-size:.75em;display:block;margin:10px 0 20px;text-align:center;color:#999;}
+.post-meta{font-size:.75em;display:block;margin: 10px 0 10px;text-align:center;color:#999;}
 .post-copyright{font-size:1em;display:block;margin:0 0 10px;color:#999;}
 .post-tags a{font-size:.75em;line-height:1.9em;position:relative;margin-right:5px;padding:4px 10px 4px 10px;vertical-align:middle;color:#414141;border-radius:2px;background:#ebecee;}
 .post-tags a:hover{color:#f08f00;background:rgba(255,152,0,.1);}
