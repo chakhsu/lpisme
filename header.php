@@ -7,6 +7,7 @@
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="<?php $this->options->cdn_add(); ?>" />
 <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+<link rel="dns-prefetch" href="//secure.gravatar.com" />
 <?php endif; ?>
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 <meta name="renderer" content="webkit">
