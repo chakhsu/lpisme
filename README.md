@@ -44,7 +44,7 @@ https://github.com/loozx/lpisme
 
 主题预览为本站：
 
-https://www.linpx.com
+https://www.linpx.com (已失效，我换主题了)
 
 ####主题亮点
 
