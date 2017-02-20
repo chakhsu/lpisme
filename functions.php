@@ -20,6 +20,10 @@ function themeConfig($form) {
 	array('Pjax' => _t('启用Pjax加速站点,勾上即可，为使原生评论生效需要到设置-评论，去掉开启垃圾评论过滤，主题已内置相关js'),),array('ShowSearch'), _t('设置开启Pjax'));
 	$form->addInput($search_form->multiMode());
 
+    //谷歌Analytics代码
+    $GoogleAnalytics = new Typecho_Widget_Helper_Form_Element_Textarea('GoogleAnalytics', NULL, NULL, _t('Google Analytics代码'), _t('填写你从Google Analytics获取到的Universal Analytics跟踪代码，不需要script标签'));
+    $form->addInput($GoogleAnalytics);
+
 	//社交链接
 	$socialweibo = new Typecho_Widget_Helper_Form_Element_Text('socialweibo', NULL, NULL, _t('输入微博链接'), _t('在这里输入微博链接,带http://'));
 	$form->addInput($socialweibo);

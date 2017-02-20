@@ -44,7 +44,7 @@ echo $commentClass;
         <div class="comment-main">
             <?php $comments->content(); ?>
             <div class="comment-meta">
-                <span class="comment-author"><?php $comments->author(); ?></span>
+                <span class="comment-author<?php echo $commentClass;?>"><?php $comments->author(); ?></span>
                 <time class="comment-time"><?php $comments->date(); ?></time>
                 <span class="comment-reply"><?php $comments->reply(); ?></span>
             </div>
@@ -163,8 +163,22 @@ echo $commentClass;
         }
     };
 })();
+function getCommentCookie(name){
+    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+    if(arr=document.cookie.match(reg))
+        return unescape(decodeURI(arr[2]));
+    else
+        return null;
+}
+function addCommentInputValue(){
+    document.getElementById('author').value = getCommentCookie('<?php echo md5($this->request->getUrlPrefix()); ?>__typecho_remember_author');
+    document.getElementById('mail').value = getCommentCookie('<?php echo md5($this->request->getUrlPrefix()); ?>__typecho_remember_mail');
+    document.getElementById('url').value = getCommentCookie('<?php echo md5($this->request->getUrlPrefix()); ?>__typecho_remember_url');
+}
+addCommentInputValue();
 </script>
 
+</script>
 <?php if(!empty($this->options->search_form) && in_array('Pjax', $this->options->search_form)): ?>
 <script type = "text/javascript" data-no-instant>
 (function() {

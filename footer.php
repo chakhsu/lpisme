@@ -41,14 +41,18 @@
 	<script src="<?php $this->options->themeUrl('js/prism.js'); ?>" data-no-instant></script>
 	<script src="//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js" data-no-instant></script>
 	<script src="//cdn.bootcss.com/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
-	<script data-no-instant>
-	//Your Google Analytics
+	<?php if($this->options->GoogleAnalytics): ?>
+	<script>
+	<?php $this->options->GoogleAnalytics(); ?>
 	</script>
+	<?php endif; ?>
 	<script data-no-instant>
 	InstantClick.on('change', function(isInitialLoad) {
 		if (isInitialLoad === false) {
 			if (typeof Prism !== 'undefined') Prism.highlightAll(true,null);
+			<?php if($this->options->GoogleAnalytics): ?>
 			if (typeof ga !== 'undefined') ga('send', 'pageview', location.pathname + location.search);
+			<?php endif; ?>
 		}
 	});
 	InstantClick.init();
