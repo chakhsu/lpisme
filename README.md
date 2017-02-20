@@ -1,6 +1,10 @@
 ####更新（2016年5月3日01:44:21）
 
-- 已 fix 主题缩略图功能存在一个图片判断失误的bug (via:https://github.com/loozx/lpisme/issues/7)
+ - 添加了评论信息回调js，改善了部分样式，完善了主题外观设置
+
+####更新（2016年5月3日01:44:21）
+
+ - 已 fix 主题缩略图功能存在一个图片判断失误的bug (via:https://github.com/loozx/lpisme/issues/7)
 
 ####更新（2016年3月15日21:34:59）
 
