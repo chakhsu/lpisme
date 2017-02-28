@@ -44,7 +44,7 @@ echo $commentClass;
         <div class="comment-main">
             <?php $comments->content(); ?>
             <div class="comment-meta">
-                <span class="comment-author<?php echo $commentClass;?>"><?php $comments->author(); ?></span>
+                <span class="comment-author<?php echo $commentClass;?>"><?php $author; ?></span>
                 <time class="comment-time"><?php $comments->date(); ?></time>
                 <span class="comment-reply"><?php $comments->reply(); ?></span>
             </div>
